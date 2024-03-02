@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: #5e607a;
+    position: relative;
+}
+ul{
+    list-style: none;
+}
+
+button{
+    border: none;
+    border-color: transparent;
+    line-height: 0;
+}
+.header.fbx{
+    justify-content: space-between;
+}
+.header {
+    padding-top: 90px;
+    padding-bottom: 55px;
+    &__logo {
+    }
+    &>a{
+        line-height: 0;
+    }
+
+    &__burger{
+        &-lines {
+        display:none;
+        }
+        &-cross{
+            display:none;
+        }
+    }
+
+    &__menu {
+        column-gap: 40px;
+        row-gap: 24px;
+        &-item{
+        }
+
+        &-link{
+            color: #5e607a;
+            transition: color 0.5s ease-in-out;
+        }
+        
+        &-link:hover{
+            color: #F15D51;
+        }
+    }
+    
+
+    
+
+    
+}
+.conteiner {
+    max-width: 1130px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.fbx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+a{
+    text-decoration: none;
+}
+.main {
+
+    &__banner {
+        column-gap: 30px;
+        row-gap: 64px;
+
+    &-start {
+        max-width: 730px;
+    }
+    
+
+    &-bg {
+        height: 300px;
+   margin-bottom: 28px;
+   background-image: url(../assets/images/bg/image-web-3-desktop.jpg);
+   background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    }
+
+    &-anonce {
+        column-gap: 30px;
+        row-gap: 16px;
+    }
+    &-anonce h1{
+        font-weight: 800;
+    font-size: 56px;
+    line-height: 56px;
+    color:#00001A;
+    max-width: 350px;
+    }
+
+    &-content p{
+        margin-bottom: 29px;
+        max-width: 350px;
+    }
+    &-content a{
+        background-color: #F15D51;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 4.4px;
+        color: #fffdfa;
+        width: 185px;
+        height: 48px;  
+        transition: background-color 0.5s ease-in-out; 
+    }
+    &-content a:hover{
+        background-color: #00001a;
+    }
+
+    &-end {
+        max-width: 350px;
+    background-color: #00001a;
+    padding: 32px 24px 31px;
+    }
+    &-end h2{
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 40px;
+        color: #e9aa52;
+        margin-bottom: 34px;
+    }
+    &-end h3{
+        margin-bottom: 8px;
+    }
+    &-end h3 a{
+        font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    color: #fffdfa;
+    transition: color 0.5s ease-in-out;
+    }
+    &-end h3 a:hover{
+        color: #e9aa52;
+    }
+    &-end p{
+        color: #c5c6ce;
+    }
+    &-end article:not(:last-child){
+        padding-bottom: 30px;
+        border-bottom: 1px solid #5e607a;
+        margin-bottom: 30px;
+    }
+}}
+
+.footer {
+    padding-top: 70px;
+    padding-bottom: 130px;
+    column-gap: 30px; 
+    row-gap: 32px;
+    &__item {
+        padding-left: 124px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-width: 350px;
+    }
+    &__item:nth-child(1){
+        background-image: url(../assets/images/bg/image-retro-pcs.jpg);
+    }
+    &__item:nth-child(2){
+        background-image: url(../assets/images/bg/image-top-laptops.jpg);
+    }
+
+    &__item:nth-child(3){
+        background-image: url(../assets/images/bg/image-gaming-growth.jpg);
+    }
+    &__item h2{
+        font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    color: #c5c6ce;
+    margin-bottom: 12px;
+    }
+     &__item h3{
+        margin-bottom: 9px;
+    }
+    &__item h3 a{
+        font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    color: #00001a;
+    transition: color 0.5s ease-in-out;
+    }
+    &__item h3 a:hover{
+        color: #f15d51;
+    }
+    
+
+
+}
